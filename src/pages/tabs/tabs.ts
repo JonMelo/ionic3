@@ -6,6 +6,7 @@ import { HomePage } from '../home/home';
 import { FeedPage } from '../feed/feed';
 import { IntroPage } from '../intro/intro';
 import { ConfiguracoesPage } from '../configuracoes/configuracoes';
+import { AtletasPage } from '../atletas/atletas';
 
 @Component({
   templateUrl: 'tabs.html'
@@ -13,7 +14,8 @@ import { ConfiguracoesPage } from '../configuracoes/configuracoes';
 export class TabsPage {
 
   tab1Root = HomePage;
-  tab4Root = FeedPage;
+  tab3Root = FeedPage;
+  tab4Root = AtletasPage;
   tab5Root = ConfiguracoesPage;
 
 

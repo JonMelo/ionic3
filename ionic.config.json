@@ -1,7 +1,14 @@
 {
-  "name": "myApp",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "ionic-angular"
-}
+    "name": "myApp",
+    "integrations": {
+      "cordova": {}
+    },
+    "type": "ionic-angular",
+    "proxies": [
+        {
+          "path": "/cartolaapi",
+          "proxyUrl": "https://api.cartolafc.globo.com"
+        }
+      ]
+    
+  }
